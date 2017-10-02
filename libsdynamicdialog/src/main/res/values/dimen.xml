@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="dialog_width">290dp</dimen>
+    <dimen name="dialog_height">290dp</dimen>
+    <dimen name="dialog_marginTop">20dp</dimen>
+    <dimen name="content_marginTop">100dp</dimen>
+    <dimen name="content_textSize">18sp</dimen>
+    <dimen name="cancle_button_width">100dp</dimen>
+    <dimen name="button_marginTop">135dp</dimen>
+    <dimen name="cancle_button_height">30dp</dimen>
+    <dimen name="btn_margin">30dp</dimen>
+</resources>

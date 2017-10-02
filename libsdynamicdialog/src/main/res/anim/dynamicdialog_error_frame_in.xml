@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:dynamicdialog="http://schemas.android.com/apk/res-auto"
+     android:interpolator="@android:anim/linear_interpolator"
+     android:shareInterpolator="true">
+
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="400"/>
+
+    <dynamicdialog:com.absurd.dynamicdialog.base.Rotate3dAnimation
+        dynamicdialog:rollType="x"
+        dynamicdialog:fromDeg="100"
+        dynamicdialog:toDeg="0"
+        dynamicdialog:pivotX="50%"
+        dynamicdialog:pivotY="50%"
+        android:duration="400"/>
+</set>

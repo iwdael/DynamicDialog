@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dynamicdialog_bg">
+
+
+        <FrameLayout
+            android:id="@+id/error_frame"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginTop="@dimen/dialog_marginTop">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dynamicdialog_error_circle" />
+
+            <ImageView
+                android:id="@+id/error_x"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="center"
+                android:src="@drawable/dynamicdialog_error_center_x" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginTop="@dimen/content_marginTop"
+            android:gravity="center"
+            android:textColor="@color/content_textColor"
+            android:textSize="@dimen/content_textSize"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

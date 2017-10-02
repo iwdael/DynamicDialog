@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dynamicdialog_bg">
+
+        <FrameLayout
+            android:id="@+id/success_frame"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginTop="@dimen/dialog_marginTop">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dynamicdialog_success_bow" />
+
+            <View
+                android:id="@+id/mask_right"
+                android:layout_width="46dp"
+                android:layout_height="106dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-17dp"
+                android:background="@android:color/white" />
+
+            <View
+                android:id="@+id/mask_left"
+                android:layout_width="28dp"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="-4dp"
+                android:background="@android:color/white" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dynamicdialog_success_circle" />
+
+
+            <com.absurd.dynamicdialog.wight.SuccessTickView
+                android:id="@+id/st_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginTop="@dimen/content_marginTop"
+            android:gravity="center"
+            android:textColor="@color/content_textColor"
+            android:textSize="@dimen/content_textSize"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

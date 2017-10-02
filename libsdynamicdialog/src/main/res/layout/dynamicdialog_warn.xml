@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dynamicdialog_bg">
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginTop="@dimen/dialog_marginTop">
+
+            <FrameLayout
+                android:id="@+id/warning_frame"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dynamicdialog_warning_circle" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="center"
+                    android:src="@drawable/dynamicdialog_warning_sigh" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/success_frame"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dynamicdialog_success_bow" />
+
+                <View
+                    android:id="@+id/mask_right"
+                    android:layout_width="46dp"
+                    android:layout_height="106dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="-17dp"
+                    android:background="@android:color/white" />
+
+                <View
+                    android:id="@+id/mask_left"
+                    android:layout_width="28dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="-4dp"
+                    android:background="@android:color/white" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dynamicdialog_success_circle" />
+
+
+                <com.absurd.dynamicdialog.wight.SuccessTickView
+                    android:id="@+id/st_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <com.absurd.dynamicdialog.wight.ProgressCircle
+                    android:id="@+id/progress_circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:circleColor="@color/success_stroke_color" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/error_frame"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dynamicdialog_error_circle" />
+
+                <ImageView
+                    android:id="@+id/error_x"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="center"
+                    android:src="@drawable/dynamicdialog_error_center_x" />
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginTop="@dimen/content_marginTop"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/content_textColor"
+            android:textSize="@dimen/content_textSize"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="@dimen/cancle_button_width"
+            android:layout_height="@dimen/cancle_button_height"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginLeft="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:background="@drawable/dynamicdialog_background_gray_button"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/content_textColor"
+            android:textSize="@dimen/content_textSize" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="@dimen/cancle_button_width"
+            android:layout_height="@dimen/cancle_button_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dialog_marginTop"
+            android:layout_marginRight="@dimen/btn_margin"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:background="@drawable/dynamicdialog_background_red_button"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/content_textColor"
+            android:textSize="@dimen/content_textSize" />
+    </RelativeLayout>
+</LinearLayout>
