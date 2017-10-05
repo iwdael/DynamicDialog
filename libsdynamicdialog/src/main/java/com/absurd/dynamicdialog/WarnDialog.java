@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.absurd.dynamicdialog.base.AnimationLoader;
+import com.absurd.dynamicdialog.base.OnDynamicDialogListener;
 import com.absurd.dynamicdialog.base.OnTickListener;
 import com.absurd.dynamicdialog.base.WarnDialogListener;
 import com.absurd.dynamicdialog.wight.ProgressCircle;
@@ -53,6 +54,13 @@ public class WarnDialog extends Dialog implements View.OnClickListener, Animatio
     private boolean mResult = false;
     private WarnDialogListener mListener;
 
+    private OnDynamicDialogListener mDialogListener;
+
+    public WarnDialog setOnDynamicDialogListener(OnDynamicDialogListener mListener) {
+        this.mDialogListener = mListener;
+        return this;
+    }
+
     public WarnDialog setWarnDialogListener(WarnDialogListener listener) {
         this.mListener = listener;
         return this;
@@ -64,6 +72,9 @@ public class WarnDialog extends Dialog implements View.OnClickListener, Animatio
             switch (msg.arg1) {
                 case DISMISS:
                     WarnDialog.super.dismiss();
+                    if (mDialogListener != null) {
+                        mDialogListener.onDismiss();
+                    }
                     break;
                 case SUCCESS:
                     mContentView.startAnimation(mDialogOut);

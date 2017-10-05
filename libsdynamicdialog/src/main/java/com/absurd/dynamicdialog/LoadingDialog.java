@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.absurd.dynamicdialog.base.AnimationLoader;
-import com.absurd.dynamicdialog.base.OnLoadingListener;
+import com.absurd.dynamicdialog.base.OnDynamicDialogListener;
 import com.absurd.dynamicdialog.base.OnTickListener;
 import com.absurd.dynamicdialog.wight.ProgressCircle;
 import com.absurd.dynamicdialog.wight.SuccessTickView;
@@ -48,10 +48,11 @@ public class LoadingDialog extends Dialog implements OnTickListener, Animation.A
     private static int SUCCESS = 1;
     private static int ERROR = 2;
     private static int DISMISS = 3;
-    private OnLoadingListener mListener;
+    private OnDynamicDialogListener mListener;
 
-    public void setOnLoadingListener(OnLoadingListener mListener) {
+    public LoadingDialog setOnDynamicDialogListener(OnDynamicDialogListener mListener) {
         this.mListener = mListener;
+        return this;
     }
 
     private Handler mHandler = new Handler() {

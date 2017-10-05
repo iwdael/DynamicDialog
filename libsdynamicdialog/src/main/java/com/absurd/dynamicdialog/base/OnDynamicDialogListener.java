@@ -6,6 +6,6 @@ package com.absurd.dynamicdialog.base;
  * Data: 2017/10/5.
  */
 
-public interface OnLoadingListener {
+public interface OnDynamicDialogListener {
     void onDismiss();
 }
