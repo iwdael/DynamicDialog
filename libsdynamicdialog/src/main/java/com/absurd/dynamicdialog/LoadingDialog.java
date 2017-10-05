@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.absurd.dynamicdialog.base.AnimationLoader;
+import com.absurd.dynamicdialog.base.OnLoadingListener;
 import com.absurd.dynamicdialog.base.OnTickListener;
 import com.absurd.dynamicdialog.wight.ProgressCircle;
 import com.absurd.dynamicdialog.wight.SuccessTickView;
@@ -47,11 +48,20 @@ public class LoadingDialog extends Dialog implements OnTickListener, Animation.A
     private static int SUCCESS = 1;
     private static int ERROR = 2;
     private static int DISMISS = 3;
+    private OnLoadingListener mListener;
+
+    public void setOnLoadingListener(OnLoadingListener mListener) {
+        this.mListener = mListener;
+    }
+
     private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             if (msg.arg1 == DISMISS) {
                 LoadingDialog.super.dismiss();
+                if (mListener != null) {
+                    mListener.onDismiss();
+                }
             } else if (msg.arg1 == ERROR) {
                 mContentView.startAnimation(mDialogOut);
                 mDialogOut.setAnimationListener(LoadingDialog.this);
@@ -131,7 +141,6 @@ public class LoadingDialog extends Dialog implements OnTickListener, Animation.A
         }
 
     }
-
 
 
     private void endErrorAnimation() {
