@@ -1,4 +1,4 @@
-# DynamicDialog  [![](https://www.jitpack.io/v/mr-absurd/dynamicdialog.svg)](https://www.jitpack.io/#mr-absurd/dynamicdialog)
+# DynamicDialog  [![](https://jitpack.io/v/aliletter/dynamicdialog.svg)](https://jitpack.io/#aliletter/dynamicdialog)
 Dynamicdialog is an Android component that prompts the user. The component contains a lot of animation, including dialog box pops up, dialog box destroyed, loaded animation, successful animation, failed animation.
 # How to
 To get a Git project into your build:
@@ -15,7 +15,7 @@ Add it in your root build.gradle at the end of repositories:
 ## Step 2. Add the dependency
 
 	dependencies {
-          compile 'com.github.mr-absurd:dynamicdialog:v1.0.0'
+          compile 'com.github.aliletter:dynamicdialog:v1.0.0'
           
 	}
   
