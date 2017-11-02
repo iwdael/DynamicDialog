@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog;
+package com.aliletter.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.absurd.dynamicdialog.base.AnimationLoader;
+import com.aliletter.dynamicdialog.base.AnimationLoader;
 
 /**
  * Created by 段泽全 on 2017/10/1.

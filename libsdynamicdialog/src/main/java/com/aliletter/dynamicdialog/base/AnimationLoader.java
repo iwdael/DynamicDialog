@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog.base;
+package com.aliletter.dynamicdialog.base;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -11,8 +11,6 @@ import android.view.animation.AnimationSet;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
-
-import com.absurd.dynamicdialog.R;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

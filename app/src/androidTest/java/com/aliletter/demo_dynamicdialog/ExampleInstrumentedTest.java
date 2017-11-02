@@ -1,4 +1,4 @@
-package com.absurd.demo_dynamicdialog;
+package com.aliletter.demo_dynamicdialog;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

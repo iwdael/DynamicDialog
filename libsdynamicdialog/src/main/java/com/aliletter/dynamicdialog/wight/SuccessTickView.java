@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog.wight;
+package com.aliletter.dynamicdialog.wight;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,8 +8,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
-import com.absurd.dynamicdialog.R;
-import com.absurd.dynamicdialog.base.OnTickListener;
+import com.aliletter.dynamicdialog.R;
+import com.aliletter.dynamicdialog.base.OnTickListener;
 
 
 public class SuccessTickView extends View {

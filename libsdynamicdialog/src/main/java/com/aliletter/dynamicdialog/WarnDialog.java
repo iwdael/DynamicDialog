@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog;
+package com.aliletter.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,12 +15,12 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.absurd.dynamicdialog.base.AnimationLoader;
-import com.absurd.dynamicdialog.base.OnDynamicDialogListener;
-import com.absurd.dynamicdialog.base.OnTickListener;
-import com.absurd.dynamicdialog.base.WarnDialogListener;
-import com.absurd.dynamicdialog.wight.ProgressCircle;
-import com.absurd.dynamicdialog.wight.SuccessTickView;
+import com.aliletter.dynamicdialog.base.AnimationLoader;
+import com.aliletter.dynamicdialog.base.OnDynamicDialogListener;
+import com.aliletter.dynamicdialog.base.OnTickListener;
+import com.aliletter.dynamicdialog.base.WarnDialogListener;
+import com.aliletter.dynamicdialog.wight.ProgressCircle;
+import com.aliletter.dynamicdialog.wight.SuccessTickView;
 
 /**
  * Created by 段泽全 on 2017/10/2.

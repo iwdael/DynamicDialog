@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog;
+package com.aliletter.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,8 +11,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.absurd.dynamicdialog.base.OnTickListener;
-import com.absurd.dynamicdialog.wight.SuccessTickView;
+import com.aliletter.dynamicdialog.base.OnTickListener;
+import com.aliletter.dynamicdialog.wight.SuccessTickView;
 
 /**
  * Created by 段泽全 on 2017/10/1.

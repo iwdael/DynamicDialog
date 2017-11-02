@@ -1,15 +1,14 @@
-package com.absurd.demo_dynamicdialog;
+package com.aliletter.demo_dynamicdialog;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.absurd.dynamicdialog.ErrorDialog;
-import com.absurd.dynamicdialog.LoadingDialog;
-import com.absurd.dynamicdialog.SuccessDialog;
-import com.absurd.dynamicdialog.WarnDialog;
-import com.absurd.dynamicdialog.base.WarnDialogListener;
-import com.absurd.dynamicdialog.wight.ProgressCircle;
+import com.aliletter.dynamicdialog.ErrorDialog;
+import com.aliletter.dynamicdialog.LoadingDialog;
+import com.aliletter.dynamicdialog.SuccessDialog;
+import com.aliletter.dynamicdialog.WarnDialog;
+import com.aliletter.dynamicdialog.base.WarnDialogListener;
 
 public class MainActivity extends AppCompatActivity implements WarnDialogListener {
     private boolean b = false;

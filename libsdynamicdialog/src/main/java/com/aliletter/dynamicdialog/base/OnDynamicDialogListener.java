@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog.base;
+package com.aliletter.dynamicdialog.base;
 
 /**
  * Author: mr-absurd

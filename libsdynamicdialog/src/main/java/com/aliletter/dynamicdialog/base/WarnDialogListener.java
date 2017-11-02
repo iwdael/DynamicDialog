@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog.base;
+package com.aliletter.dynamicdialog.base;
 
 /**
  * Created by 段泽全 on 2017/10/2.

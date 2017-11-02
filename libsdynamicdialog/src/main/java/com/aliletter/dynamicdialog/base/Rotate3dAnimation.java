@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog.base;
+package com.aliletter.dynamicdialog.base;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import android.util.TypedValue;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
-import com.absurd.dynamicdialog.R;
+import com.aliletter.dynamicdialog.R;
 
 
 public class Rotate3dAnimation extends Animation {

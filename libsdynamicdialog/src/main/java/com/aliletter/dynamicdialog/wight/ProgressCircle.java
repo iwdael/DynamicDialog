@@ -1,4 +1,4 @@
-package com.absurd.dynamicdialog.wight;
+package com.aliletter.dynamicdialog.wight;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.absurd.dynamicdialog.R;
+import com.aliletter.dynamicdialog.R;
 
 /**
  * Created by 段泽全 on 2017/10/1.
