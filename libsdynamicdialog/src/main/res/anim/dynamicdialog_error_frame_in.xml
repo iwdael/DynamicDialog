@@ -10,7 +10,7 @@
         android:toAlpha="1"
         android:duration="400"/>
 
-    <dynamicdialog:com.absurd.dynamicdialog.base.Rotate3dAnimation
+    <dynamicdialog:com.aliletter.dynamicdialog.base.Rotate3dAnimation
         dynamicdialog:rollType="x"
         dynamicdialog:fromDeg="100"
         dynamicdialog:toDeg="0"
