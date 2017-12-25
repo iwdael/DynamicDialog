@@ -1,5 +1,5 @@
 # DynamicDialog  [![](https://jitpack.io/v/aliletter/dynamicdialog.svg)](https://jitpack.io/#aliletter/dynamicdialog)
-dynamicdialog是一个Android控件提示用户。的controlcontains很多动画，包括弹出对话框，对话框破坏，加载动画，成功的动画，没有动画。
+dynamicdialog是一个提示用户的安卓控件。该控件包含大量动画，包括弹出对话框、加载动画、成功动画、失败动画等。
 ## 使用说明
 Dynamicdialog包含四种不同风格的dialog，实用于不同的场景。使用者可以根据自己的需求选择合适的dialog。
 ### 代码示例
@@ -64,11 +64,11 @@ This dialog box is used for operations that require the user to wait and can dis
 ```Java
 	dependencies {
                 ...
-	        compile 'com.github.aliletter:dynamicdialog:v1.0.1'
+	        compile 'com.github.aliletter:dynamicdialog:v1.0.4'
 	}
 ```
 <br><br>
-![Image text](https://github.com/aliletter/arcmenu/blob/master/dynamicdialog.gif)
+![Image text](https://github.com/aliletter/DynamicDialog/blob/master/dynamicdialog.gif)
 <br><br><br>
 ## 感谢浏览
 如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。

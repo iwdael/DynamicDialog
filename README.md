@@ -1,5 +1,5 @@
 # DynamicDialog  [![](https://jitpack.io/v/aliletter/dynamicdialog.svg)](https://jitpack.io/#aliletter/dynamicdialog)
-Dynamicdialog is an android control that prompts the user. The controlcontains a lot of animation, including dialog box pops up, dialog box destroyed, loaded animation, successful animation, failed animation.[中文文档](https://github.com/aliletter/Dynamicdialog/blob/master/README_CHINESE.md)
+Dynamicdialog is an android control that prompts the user. The control contains a lot of animation, including dialog box pops up, dialog box destroyed, loaded animation, successful animation, failed animation.[中文文档](https://github.com/aliletter/Dynamicdialog/blob/master/README_CHINESE.md)
 ## Instruction
 Dynamicdialog contains four different styles of dialog, which is used in different scenarios. Users can choose the right dialog according to their needs.
 ### Code Sample
@@ -64,11 +64,11 @@ Add it in your application module build.gradle at the end of dependencies where 
  ```Java
  	dependencies {
                  ...
- 	        compile 'com.github.aliletter:dynamicdialog:v1.0.1'
+ 	        compile 'com.github.aliletter:dynamicdialog:v1.0.4'
  	}
  ```
 <br><br>
-![Image text](https://github.com/aliletter/arcmenu/blob/master/dynamicdialog.gif)
+![Image text](https://github.com/aliletter/DynamicDialog/blob/master/dynamicdialog.gif)
 <br><br><br>
 ## Thank you for your browsing
 If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
