@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DynamicDialog.iml" filepath="$PROJECT_DIR$/DynamicDialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DynamicDialog.iml" filepath="$PROJECT_DIR$/DynamicDialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\DynamicDialog\DynamicDialog.iml" filepath="C:\Users\alile\Desktop\DynamicDialog\DynamicDialog.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\DynamicDialog\app\app.iml" filepath="C:\Users\alile\Desktop\DynamicDialog\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/app.iml" filepath="$PROJECT_DIR$/example/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libsdynamicdialog/libsdynamicdialog.iml" filepath="$PROJECT_DIR$/libsdynamicdialog/libsdynamicdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libsdynamicdialog/libsdynamicdialog.iml" filepath="$PROJECT_DIR$/libsdynamicdialog/libsdynamicdialog.iml" />
+      <module fileurl="file://C:\Users\alile\Desktop\DynamicDialog\libsdynamicdialog\libsdynamicdialog.iml" filepath="C:\Users\alile\Desktop\DynamicDialog\libsdynamicdialog\libsdynamicdialog.iml" />
     </modules>
   </component>
 </project>

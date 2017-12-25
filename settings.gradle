@@ -1,1 +1,1 @@
-include ':app', ':libsdynamicdialog'
+include ':example', ':libsdynamicdialog'
