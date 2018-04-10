@@ -1,4 +1,4 @@
-# DynamicDialog  [![](https://jitpack.io/v/aliletter/dynamicdialog.svg)](https://jitpack.io/#aliletter/dynamicdialog)
+# DynamicDialog  [![](https://jitpack.io/v/blackchopper/dynamicdialog.svg)](https://jitpack.io/#blackchopper/dynamicdialog)
 dynamicdialog是一个提示用户的安卓控件。该控件包含大量动画，包括弹出对话框、加载动画、成功动画、失败动画等。
 ## 使用说明
 Dynamicdialog包含四种不同风格的dialog，实用于不同的场景。使用者可以根据自己的需求选择合适的dialog。
@@ -50,7 +50,7 @@ This dialog box is used for operations that require the user to wait and can dis
 ## 如何配置
 将本仓库引入你的项目:
 ### Step 1. 添加JitPack仓库到Build文件
-合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
+合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
 ```Java
 	allprojects {
 		repositories {
@@ -60,17 +60,17 @@ This dialog box is used for operations that require the user to wait and can dis
 	}
 ```
 ### Step 2. 添加依赖   
-合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
+合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
 ```Java
 	dependencies {
                 ...
-	        compile 'com.github.aliletter:dynamicdialog:v1.0.4'
+	        compile 'com.github.blackchopper:dynamicdialog:v1.0.5'
 	}
 ```
 <br><br>
-![Image text](https://github.com/aliletter/DynamicDialog/blob/master/dynamicdialog.gif)
+![Image text](https://github.com/blackchopper/DynamicDialog/blob/master/dynamicdialog.gif)
 <br><br><br>
 ## 感谢浏览
 如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
-![Image Text](https://github.com/aliletter/CarouselBanner/blob/master/qq_group.png)
+![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)

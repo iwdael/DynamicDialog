@@ -1,4 +1,4 @@
-package com.aliletter.demo_dynamicdialog;
+package com.blackchopper.dynamicdialog;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.absurd.demo_dynamicdialog", appContext.getPackageName());
+        assertEquals("com.absurd.dynamicdialog.test", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog.base;
+package com.blackchopper.dynamicdialog.base;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -18,11 +18,11 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 
 /**
- * Created by 段泽全 on 2017/10/1.
- * Github：https://github.com/mr-absurd
- * Emile:4884280@qq.com
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
  */
-
 public class AnimationLoader {
     public static Animation loadAnimation(Context context, int id)
             throws Resources.NotFoundException {

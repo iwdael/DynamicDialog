@@ -1,14 +1,14 @@
-package com.aliletter.demo_dynamicdialog;
+package com.blackchopper.demo_dynamicdialog;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.aliletter.dynamicdialog.ErrorDialog;
-import com.aliletter.dynamicdialog.LoadingDialog;
-import com.aliletter.dynamicdialog.SuccessDialog;
-import com.aliletter.dynamicdialog.WarnDialog;
-import com.aliletter.dynamicdialog.base.WarnDialogListener;
+import com.blackchopper.dynamicdialog.ErrorDialog;
+import com.blackchopper.dynamicdialog.LoadingDialog;
+import com.blackchopper.dynamicdialog.SuccessDialog;
+import com.blackchopper.dynamicdialog.WarnDialog;
+import com.blackchopper.dynamicdialog.base.WarnDialogListener;
 
 public class MainActivity extends AppCompatActivity implements WarnDialogListener {
     private boolean b = false;

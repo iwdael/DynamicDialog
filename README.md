@@ -1,5 +1,5 @@
-# DynamicDialog  [![](https://jitpack.io/v/aliletter/dynamicdialog.svg)](https://jitpack.io/#aliletter/dynamicdialog)
-Dynamicdialog is an android control that prompts the user. The control contains a lot of animation, including dialog box pops up, dialog box destroyed, loaded animation, successful animation, failed animation.[中文文档](https://github.com/aliletter/Dynamicdialog/blob/master/README_CHINESE.md)
+# DynamicDialog  [![](https://jitpack.io/v/blackchopper/dynamicdialog.svg)](https://jitpack.io/#blackchopper/dynamicdialog)
+Dynamicdialog is an android control that prompts the user. The control contains a lot of animation, including dialog box pops up, dialog box destroyed, loaded animation, successful animation, failed animation.[中文文档](https://github.com/blackchopper/Dynamicdialog/blob/master/README_CHINESE.md)
 ## Instruction
 Dynamicdialog contains four different styles of dialog, which is used in different scenarios. Users can choose the right dialog according to their needs.
 ### Code Sample
@@ -50,7 +50,7 @@ This warn dialog box is used for operations that require user selection, which i
 ## How to
 To get a Git project into your build:
 ### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/aliletter/CarouselBanner/blob/master/root_build.gradle.png)
+Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
  ```Java
  	allprojects {
  		repositories {
@@ -60,19 +60,19 @@ Add it in your root build.gradle at the end of repositories.   [click here for d
  	}
  ```
 ### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.[click here for details](https://github.com/aliletter/CarouselBanner/blob/master/application_build.gradle.png)
+Add it in your application module build.gradle at the end of dependencies where you want to use.[click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
  ```Java
  	dependencies {
                  ...
- 	        compile 'com.github.aliletter:dynamicdialog:v1.0.4'
+ 	        compile 'com.github.blackchopper:dynamicdialog:v1.0.5'
  	}
  ```
 <br><br>
-![Image text](https://github.com/aliletter/DynamicDialog/blob/master/dynamicdialog.gif)
+![Image text](https://github.com/blackchopper/DynamicDialog/blob/master/dynamicdialog.gif)
 <br><br><br>
 ## Thank you for your browsing
 If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
 <br>
-![Image Text](https://github.com/aliletter/CarouselBanner/blob/master/qq_group.png)
+![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)
  
 	 

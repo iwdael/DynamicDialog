@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog;
+package com.blackchopper.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -14,12 +14,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.aliletter.dynamicdialog.base.AnimationLoader;
+import com.blackchopper.dynamicdialog.base.AnimationLoader;
 
 /**
- * Created by 段泽全 on 2017/10/1.
- * Github：https://github.com/mr-absurd
- * Emile:4884280@qq.com
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
  */
 
 public class ErrorDialog extends Dialog implements Animation.AnimationListener {

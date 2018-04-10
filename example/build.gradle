@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.absurd.demo_dynamicdialog"
+        applicationId "com.blackchopper.demo_dynamicdialog"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1

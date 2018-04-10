@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog;
+package com.blackchopper.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,15 +11,15 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.aliletter.dynamicdialog.base.OnTickListener;
-import com.aliletter.dynamicdialog.wight.SuccessTickView;
+import com.blackchopper.dynamicdialog.base.OnTickListener;
+import com.blackchopper.dynamicdialog.wight.SuccessTickView;
 
 /**
- * Created by 段泽全 on 2017/10/1.
- * Github：https://github.com/mr-absurd
- * Emile:4884280@qq.com
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
  */
-
 public class SuccessDialog extends Dialog implements OnTickListener, Animation.AnimationListener {
     private View mContentView;
     private SuccessTickView mSuccessTickView;

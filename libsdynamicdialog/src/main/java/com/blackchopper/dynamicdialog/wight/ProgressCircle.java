@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog.wight;
+package com.blackchopper.dynamicdialog.wight;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -12,14 +12,14 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.aliletter.dynamicdialog.R;
+import com.blackchopper.dynamicdialog.R;
 
 /**
- * Created by 段泽全 on 2017/10/1.
- * Github：https://github.com/mr-absurd
- * Emile:4884280@qq.com
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
  */
-
 public class ProgressCircle extends View {
     private Paint mPaint;
     private Path mPath;

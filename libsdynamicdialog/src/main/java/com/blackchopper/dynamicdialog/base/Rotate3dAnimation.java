@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog.base;
+package com.blackchopper.dynamicdialog.base;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,9 +9,14 @@ import android.util.TypedValue;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
-import com.aliletter.dynamicdialog.R;
+import com.blackchopper.dynamicdialog.R;
 
-
+/**
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
+ */
 public class Rotate3dAnimation extends Animation {
     private int mPivotXType = ABSOLUTE;
     private int mPivotYType = ABSOLUTE;

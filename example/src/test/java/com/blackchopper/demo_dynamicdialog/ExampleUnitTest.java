@@ -1,4 +1,4 @@
-package com.aliletter.demo_dynamicdialog;
+package com.blackchopper.demo_dynamicdialog;
 
 import org.junit.Test;
 

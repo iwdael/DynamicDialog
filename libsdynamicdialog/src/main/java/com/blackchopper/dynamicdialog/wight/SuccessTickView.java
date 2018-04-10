@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog.wight;
+package com.blackchopper.dynamicdialog.wight;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,10 +8,15 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
-import com.aliletter.dynamicdialog.R;
-import com.aliletter.dynamicdialog.base.OnTickListener;
+import com.blackchopper.dynamicdialog.R;
+import com.blackchopper.dynamicdialog.base.OnTickListener;
 
-
+/**
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
+ */
 public class SuccessTickView extends View {
     private float mDensity = -1;
     private Paint mPaint;

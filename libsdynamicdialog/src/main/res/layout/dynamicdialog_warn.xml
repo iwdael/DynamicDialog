@@ -70,12 +70,12 @@
                     android:background="@drawable/dynamicdialog_success_circle" />
 
 
-                <com.aliletter.dynamicdialog.wight.SuccessTickView
+                <com.blackchopper.dynamicdialog.wight.SuccessTickView
                     android:id="@+id/st_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-                <com.aliletter.dynamicdialog.wight.ProgressCircle
+                <com.blackchopper.dynamicdialog.wight.ProgressCircle
                     android:id="@+id/progress_circle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

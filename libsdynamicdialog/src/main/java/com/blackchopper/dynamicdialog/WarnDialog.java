@@ -1,4 +1,4 @@
-package com.aliletter.dynamicdialog;
+package com.blackchopper.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,19 +15,19 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.aliletter.dynamicdialog.base.AnimationLoader;
-import com.aliletter.dynamicdialog.base.OnDynamicDialogListener;
-import com.aliletter.dynamicdialog.base.OnTickListener;
-import com.aliletter.dynamicdialog.base.WarnDialogListener;
-import com.aliletter.dynamicdialog.wight.ProgressCircle;
-import com.aliletter.dynamicdialog.wight.SuccessTickView;
+import com.blackchopper.dynamicdialog.base.AnimationLoader;
+import com.blackchopper.dynamicdialog.base.OnDynamicDialogListener;
+import com.blackchopper.dynamicdialog.base.OnTickListener;
+import com.blackchopper.dynamicdialog.base.WarnDialogListener;
+import com.blackchopper.dynamicdialog.wight.ProgressCircle;
+import com.blackchopper.dynamicdialog.wight.SuccessTickView;
 
 /**
- * Created by 段泽全 on 2017/10/2.
- * Github：https://github.com/mr-absurd
- * Emile:4884280@qq.com
+ * author  : Black Chopper
+ * e-mail  : 4884280@qq.com
+ * github  : http://github.com/BlackChopper
+ * project : DynamicDialog
  */
-
 public class WarnDialog extends Dialog implements View.OnClickListener, Animation.AnimationListener, OnTickListener {
     private View mContentView;
     private FrameLayout mSuccessFrame;
