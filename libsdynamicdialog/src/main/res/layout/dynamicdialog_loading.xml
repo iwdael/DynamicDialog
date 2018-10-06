@@ -45,12 +45,12 @@
                 android:background="@drawable/dynamicdialog_success_circle" />
 
 
-            <com.blackchopper.dynamicdialog.wight.SuccessTickView
+            <com.hacknife.dynamicdialog.wight.SuccessTickView
                 android:id="@+id/st_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-            <com.blackchopper.dynamicdialog.wight.ProgressCircle
+            <com.hacknife.dynamicdialog.wight.ProgressCircle
                 app:circleColor="@color/success_stroke_color"
                 android:id="@+id/progress_circle"
                 android:layout_width="match_parent"

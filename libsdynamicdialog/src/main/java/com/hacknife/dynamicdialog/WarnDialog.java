@@ -1,4 +1,4 @@
-package com.blackchopper.dynamicdialog;
+package com.hacknife.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,12 +15,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.blackchopper.dynamicdialog.base.AnimationLoader;
-import com.blackchopper.dynamicdialog.base.OnDynamicDialogListener;
-import com.blackchopper.dynamicdialog.base.OnTickListener;
-import com.blackchopper.dynamicdialog.base.WarnDialogListener;
-import com.blackchopper.dynamicdialog.wight.ProgressCircle;
-import com.blackchopper.dynamicdialog.wight.SuccessTickView;
+
+import com.hacknife.dynamicdialog.base.AnimationLoader;
+import com.hacknife.dynamicdialog.base.OnDynamicDialogListener;
+import com.hacknife.dynamicdialog.base.OnTickListener;
+import com.hacknife.dynamicdialog.base.WarnDialogListener;
+import com.hacknife.dynamicdialog.wight.ProgressCircle;
+import com.hacknife.dynamicdialog.wight.SuccessTickView;
 
 /**
  * author  : Black Chopper

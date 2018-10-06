@@ -1,4 +1,4 @@
-package com.blackchopper.dynamicdialog.wight;
+package com.hacknife.dynamicdialog.wight;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,8 +8,9 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
-import com.blackchopper.dynamicdialog.R;
-import com.blackchopper.dynamicdialog.base.OnTickListener;
+
+import com.hacknife.dynamicdialog.R;
+import com.hacknife.dynamicdialog.base.OnTickListener;
 
 /**
  * author  : Black Chopper

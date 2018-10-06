@@ -45,7 +45,7 @@
                 android:background="@drawable/dynamicdialog_success_circle" />
 
 
-            <com.blackchopper.dynamicdialog.wight.SuccessTickView
+            <com.hacknife.dynamicdialog.wight.SuccessTickView
                 android:id="@+id/st_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />

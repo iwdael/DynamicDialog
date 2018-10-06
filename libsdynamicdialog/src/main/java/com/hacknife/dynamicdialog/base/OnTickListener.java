@@ -1,4 +1,4 @@
-package com.blackchopper.dynamicdialog.base;
+package com.hacknife.dynamicdialog.base;
 
 /**
  * author  : Black Chopper

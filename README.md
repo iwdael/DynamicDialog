@@ -1,17 +1,18 @@
 # DynamicDialog  [![](https://jitpack.io/v/blackchopper/dynamicdialog.svg)](https://jitpack.io/#blackchopper/dynamicdialog)
-Dynamicdialog is an android control that prompts the user. The control contains a lot of animation, including dialog box pops up, dialog box destroyed, loaded animation, successful animation, failed animation.[中文文档](https://github.com/blackchopper/Dynamicdialog/blob/master/README_CHINESE.md)
-## Instruction
-Dynamicdialog contains four different styles of dialog, which is used in different scenarios. Users can choose the right dialog according to their needs.
-### Code Sample
-The success dialog box will automatically disappear after a period of time.
+dynamicdialog是一个提示用户的安卓控件。该控件包含大量动画，包括弹出对话框、加载动画、成功动画、失败动画等。[English](https://github.com/blackchopper/Dynamicdialog/blob/master/README.md)
+## 使用说明
+Dynamicdialog包含四种不同风格的dialog，实用于不同的场景。使用者可以根据自己的需求选择合适的dialog。
+### 代码示例
+此Dialog用于展示成功的信息，且在一段时间后自动消失。
 ```Java
     new SuccessDialog(this).setSuccessText("删除成功").show();
 ```
-The error dialog box will automatically disappear after a period of time.
+此Dialog用于展示错误的信息，且在一段时间后自动消失。
 ```Java
     new ErrorDialog(this).setErrorText("删除失败").show();
 ```
-This load dialog box is used for operations that require the user to wait and can display the results of the operation.
+This dialog box is used for operations that require the user to wait and can display the results of the operation.
+此Dialog用于要求用户等待并显示操作结果的操作。
 ```Java
       //Set the relevant parameters
       loadingDialog = new LoadingDialog(this)
@@ -20,59 +21,56 @@ This load dialog box is used for operations that require the user to wait and ca
                         .setSuccessText("删除成功");
       loadingDialog.show();
       
-      //Destroy the dialog box and prompt the user to manipulate the results
+      //设置操作结果，并关闭Dialog.
       loadingDialog.setResult(boolean).dismiss();
       
 ```
-This warn dialog box is used for operations that require user selection, which is usually irreversible.
+此对话框用于需要用户选择的操作，该操作通常是不可逆的。
 ```Java
- 
+       //Set the relevant parameters
       warndialog = new WarnDialog(this)
                 .setWarnText("你确定要删除此文件吗？")
                 .setLoadText("删除中...")
                 .setSuccessText("删除成功")
                 .setErrorText("删除失败")
                 .setWarnDialogListener(new WarnDialogListener() {
-                                                     @Override
-                                                     public void onConfirm() {
-                                                                                                              
-                                                     }
-                                                                              
-                                                     @Override
-                                                     public void onCancle() {
-                                                                              
-                                                     }
-                                        });
+                                                   @Override
+                                                   public void onConfirm() {
+                                                                       
+                                                   }
+                                       
+                                                   @Override
+                                                   public void onCancle() {
+                                       
+                                                   }
+                                       });
       warndialog.show();
  
 ```
-
-## How to
-To get a Git project into your build:
-### Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories.   [click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
- ```Java
- 	allprojects {
- 		repositories {
- 			...
- 			maven { url 'https://jitpack.io' }
- 		}
- 	}
- ```
-### Step 2. Add the dependency
-Add it in your application module build.gradle at the end of dependencies where you want to use.[click here for details](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
- ```Java
- 	dependencies {
-                 ...
- 	        compile 'com.github.blackchopper:dynamicdialog:v1.0.5'
- 	}
- ```
+## 如何配置
+将本仓库引入你的项目:
+### Step 1. 添加JitPack仓库到Build文件
+合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/root_build.gradle.png)
+```Java
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+### Step 2. 添加依赖   
+合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/blackchopper/CarouselBanner/blob/master/application_build.gradle.png)
+```Java
+	dependencies {
+                ...
+	        compile 'com.github.blackchopper:dynamicdialog:v1.0.5'
+	}
+```
 <br><br>
 ![Image text](https://github.com/blackchopper/DynamicDialog/blob/master/dynamicdialog.gif)
 <br><br><br>
-## Thank you for your browsing
-If you have any questions, please join the QQ group. I will do my best to answer it for you. Welcome to star and fork this repository, alse follow me.
+## 感谢浏览
+如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
 ![Image Text](https://github.com/blackchopper/CarouselBanner/blob/master/qq_group.png)
- 
-	 

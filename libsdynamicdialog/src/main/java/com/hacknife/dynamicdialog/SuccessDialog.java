@@ -1,4 +1,4 @@
-package com.blackchopper.dynamicdialog;
+package com.hacknife.dynamicdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -11,8 +11,9 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.blackchopper.dynamicdialog.base.OnTickListener;
-import com.blackchopper.dynamicdialog.wight.SuccessTickView;
+
+import com.hacknife.dynamicdialog.base.OnTickListener;
+import com.hacknife.dynamicdialog.wight.SuccessTickView;
 
 /**
  * author  : Black Chopper

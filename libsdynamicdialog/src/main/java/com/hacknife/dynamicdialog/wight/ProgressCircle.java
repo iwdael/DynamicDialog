@@ -1,4 +1,4 @@
-package com.blackchopper.dynamicdialog.wight;
+package com.hacknife.dynamicdialog.wight;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -12,7 +12,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.blackchopper.dynamicdialog.R;
+import com.hacknife.dynamicdialog.R;
+
 
 /**
  * author  : Black Chopper

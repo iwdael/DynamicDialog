@@ -1,14 +1,14 @@
-package com.blackchopper.demo_dynamicdialog;
+package com.hacknife.demo_dynamicdialog;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.blackchopper.dynamicdialog.ErrorDialog;
-import com.blackchopper.dynamicdialog.LoadingDialog;
-import com.blackchopper.dynamicdialog.SuccessDialog;
-import com.blackchopper.dynamicdialog.WarnDialog;
-import com.blackchopper.dynamicdialog.base.WarnDialogListener;
+import com.hacknife.dynamicdialog.ErrorDialog;
+import com.hacknife.dynamicdialog.LoadingDialog;
+import com.hacknife.dynamicdialog.SuccessDialog;
+import com.hacknife.dynamicdialog.WarnDialog;
+import com.hacknife.dynamicdialog.base.WarnDialogListener;
 
 public class MainActivity extends AppCompatActivity implements WarnDialogListener {
     private boolean b = false;

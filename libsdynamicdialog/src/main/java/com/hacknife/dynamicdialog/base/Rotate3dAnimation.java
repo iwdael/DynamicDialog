@@ -1,4 +1,4 @@
-package com.blackchopper.dynamicdialog.base;
+package com.hacknife.dynamicdialog.base;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,8 @@ import android.util.TypedValue;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
-import com.blackchopper.dynamicdialog.R;
+import com.hacknife.dynamicdialog.R;
+
 
 /**
  * author  : Black Chopper
