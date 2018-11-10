@@ -1,5 +1,9 @@
-# DynamicDialog  [![](https://jitpack.io/v/hacknife/dynamicdialog.svg)](https://jitpack.io/#hacknife/dynamicdialog)
-dynamicdialog是一个提示用户的安卓控件。该控件包含大量动画，包括弹出对话框、加载动画、成功动画、失败动画等。[English](https://github.com/hacknife/Dynamicdialog/blob/master/README.md)
+# DynamicDialog
+[![](https://img.shields.io/badge/platform-android-orange.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/language-java-yellow.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/JCenter-1.0.8-brightgreen.svg)](http://jcenter.bintray.com/com/hacknife/skinswitcher/) [![](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/license-apache--2.0-green.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/hacknife)<br/><br/>
+DynamicDialog是一个提示用户的安卓控件。该控件包含大量动画，包括弹出对话框、加载动画、成功动画、失败动画等。
+<br><br>
+![Image text](https://github.com/hacknife/DynamicDialog/blob/master/dynamicdialog.gif)
+<br><br><br>
 ## 使用说明
 Dynamicdialog包含四种不同风格的dialog，实用于不同的场景。使用者可以根据自己的需求选择合适的dialog。
 ### 代码示例
@@ -47,29 +51,15 @@ This dialog box is used for operations that require the user to wait and can dis
       warndialog.show();
  
 ```
-## 如何配置
-将本仓库引入你的项目:
-### Step 1. 添加JitPack仓库到Build文件
-合并以下代码到项目根目录下的build.gradle文件的repositories尾。[点击查看详情](https://github.com/hacknife/CarouselBanner/blob/master/root_build.gradle.png)
-```Java
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-```
-### Step 2. 添加依赖   
-合并以下代码到需要使用的application Module的dependencies尾。[点击查看详情](https://github.com/hacknife/CarouselBanner/blob/master/application_build.gradle.png)
+## 快速引入项目
+合并以下代码到需要使用Module的dependencies中。
 ```Java
 	dependencies {
                 ...
-	        compile 'com.github.hacknife:dynamicdialog:v1.0.5'
+	        compile 'com.hacknife:dynamicdialog:1.0.8'
 	}
 ```
-<br><br>
-![Image text](https://github.com/hacknife/DynamicDialog/blob/master/dynamicdialog.gif)
-<br><br><br>
+
 ## 感谢浏览
 如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
 <br>
